@@ -1,0 +1,95 @@
+.navbar {
+  margin-left: 70px;
+  padding: 50px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-link {
+  font-family: 'Habibi';
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.navbar-link:hover {
+  color: rgb(142, 104, 0);
+  transition: 0.3s;
+}
+
+.toggle-container {
+  position: relative;
+  margin-top: 0.75rem;
+}
+
+.toggle-container {
+  display: flex;
+}
+
+.toggle-cart {
+  background: transparent;
+  border-color: transparent;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+  margin-top: -90px;
+  margin-left: 83%;
+}
+
+.cart-item {
+  color: #fff;
+  margin-top: -65px;
+  margin-right: 195px;
+  position: absolute;
+  top: -0.85rem;
+  right: -0.85rem;
+  background: rgb(142, 104, 0);
+  width: 1.75rem;
+  height: 1.75rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.comfy-img {
+  margin-top: -20px;
+  margin-left: 15%;
+}
+
+section h1 {
+  font-family: 'Habibi';
+  color: #fff;
+  font-size: 60px;
+  margin-left: 3%;
+  padding: 8%;
+}
+
+.text {
+  font-family: 'Habibi';
+  color: #fff;
+  margin-top: -105px;
+  margin-left: 11%;
+  font-size: 35px
+}
+
+.btn {
+  font-size: 20px;
+  width: 10%;
+  height: 45px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  margin-left: 170px;
+  margin-top: 40px;
+}
+
+.btn:hover {
+  transition: 0.6s;
+  background-color: #fff;
+  color: rgb(142, 104, 0);
+}

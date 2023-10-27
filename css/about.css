@@ -1,0 +1,19 @@
+.section {
+  text-align: center;
+}
+
+.section h1 {
+  color: rgb(142, 104, 0);
+  font-size: 30px;
+  margin-top: -80px;
+}
+
+.about-text {
+  font-family: sans-serif;
+  width: 50%;
+  margin-left: 27%;
+  margin-top: -75px;
+  font-size: 23px;
+  color: #fff;
+  line-height: 1.5;
+}

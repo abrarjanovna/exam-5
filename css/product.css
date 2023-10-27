@@ -1,0 +1,240 @@
+body {
+  background-image: url(../images/mebel.jpg);
+  min-height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(20px);
+  font-family: 'Habibi';
+}
+
+#loading {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+.loading div {
+  left: 94px;
+  top: 48px;
+  position: absolute;
+  animation: loading linear 1s infinite;
+  background: rgb(142, 104, 0);
+  width: 12px;
+  height: 24px;
+  border-radius: 6px / 12px;
+  transform-origin: 6px 52px;
+}
+
+.loading div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.9166666666666666s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -0.8333333333333334s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.75s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.6666666666666666s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.5833333333333334s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.5s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.4166666666666667s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.3333333333333333s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.25s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.16666666666666666s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.08333333333333333s;
+  background: rgb(142, 104, 0);
+}
+
+.loading div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+  background: rgb(142, 104, 0);
+}
+
+.loading-box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+
+.navbar {
+  margin-left: 70px;
+  padding: 50px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-link {
+  font-family: 'Habibi';
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.navbar-link:hover {
+  color: rgb(142, 104, 0);
+  transition: 0.3s;
+}
+
+.toggle-container {
+  position: relative;
+  margin-top: 0.75rem;
+}
+
+.toggle-container {
+  display: flex;
+}
+
+.toggle-cart {
+  background: transparent;
+  border-color: transparent;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+  margin-top: -90px;
+  margin-left: 83%;
+}
+
+.cart-item {
+  color: #fff;
+  margin-top: -65px;
+  margin-right: 195px;
+  position: absolute;
+  top: -0.85rem;
+  right: -0.85rem;
+  background: rgb(142, 104, 0);
+  width: 1.75rem;
+  height: 1.75rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.comfy-img {
+  margin-top: -20px;
+  margin-left: 15%;
+}
+
+.back-btn {
+  margin-left: 535px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 80px;
+  height: 40px;
+}
+
+.product-wrapper {
+  display: flex;
+}
+
+footer {
+  margin-left: 100px;
+}
+
+.back-btn:hover {
+  background-color: #fff;
+  color: rgb(142, 104, 0);
+  transition: 0.3s;
+}
+
+.img {
+  padding: 20px;
+  width: 500px;
+}
+
+.product-info {
+  text-transform: capitalize;
+}
+
+h5 {
+  color: rgb(255, 85, 85);
+}
+
+span {
+  color: rgba(255, 0, 0, 0.712);
+}
+
+p {
+  width: 500px;
+  color: #650000;
+}

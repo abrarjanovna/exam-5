@@ -1,0 +1,88 @@
+.products {
+  margin-left: 10%;
+}
+
+.filters-container {
+  position: sticky;
+  top: 1rem;
+}
+
+.filters h4 {
+  font-weight: 500;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.search-input {
+  padding: 0.5rem;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  border-color: #fff;
+}
+
+.search-input::placeholder {
+  color: #b5b5b5;
+}
+
+h4 {
+  color: rgb(142, 104, 0);
+}
+
+.company-btn {
+  display: block;
+  margin: 0.25em 0;
+  padding: 0.25rem;
+  text-transform: capitalize;
+  background: transparent;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.company-btn:hover {
+  color: rgb(142, 104, 0);
+}
+
+.price-value {
+  color: #fff;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: -170px;
+  margin-left: 110px;
+}
+
+.single-product {
+  min-height: 20vh;
+  place-items: center;
+}
+
+.single-product-img {
+  margin: 15px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  font-family: 'Habibi';
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 15px;
+
+}

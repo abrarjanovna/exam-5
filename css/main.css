@@ -1,0 +1,17 @@
+@import url(home.css);
+@import url(loading.css);
+@import url(products.css);
+@import url(about.css);
+
+/* home page css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('../images/mebel.jpg');
+  backdrop-filter: blur(20px);
+  min-height: 100vh;
+}
